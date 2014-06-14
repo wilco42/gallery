@@ -1,0 +1,47 @@
+body {
+    color: black;
+    background-color: #1f1f1f;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 0 0 0 5px;
+
+}
+
+.album {
+    background-color: #1f1f1f;
+    width: 200px;
+    height: 200px;
+    padding: 5px 10px 5px 10px;
+    float: left;
+}
+
+.albumBox {
+    background-color: #666;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+.titleBox {
+    font: 16px "Helvetica Nenu", Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.03) 30%,rgba(0,0,0,0.85) 150%);
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+}
+
+.title {
+    padding: 42px 10px 10px 10px;
+}
